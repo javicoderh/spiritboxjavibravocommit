@@ -1,0 +1,33 @@
+iframe {    
+    border-radius: 4%;
+    border-style: solid;
+    border-color: rgb(93, 197, 245);
+    border-width: 6px;          
+}
+
+@media (min-width: 600px) {
+    iframe {
+      position:relative;
+      right: 80px;
+    }
+    figcaption {
+        position: relative;
+        right: 57px;
+    }
+    .ideportes {
+        position: relative;
+        right: 108px;
+    }
+}
+
+@media (max-width: 600px) {
+    iframe {
+      position:relative;
+      right: -25px;
+      margin-right: 30px;
+    }
+    .ideportes {
+        position: relative;
+        right: 5px;
+    }
+}

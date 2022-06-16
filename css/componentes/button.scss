@@ -1,0 +1,27 @@
+.back {
+    position: relative;
+    left: 5px;
+    border-radius: 50%;
+    border: solid;
+    border-color: rgb(93, 197, 245);
+    margin-top: 20px;
+    
+    justify-content: center;
+    
+    
+}
+.backtxt {
+    position: absolute;    
+    color: rgb(93, 197, 245);
+    font-size: smaller;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.submit {
+    background-color: rgb(93, 197, 245);
+    margin-top: 10px;
+    color: rgb(10, 53, 194);
+    border-color: rgb(93, 197, 245); 
+}
+
